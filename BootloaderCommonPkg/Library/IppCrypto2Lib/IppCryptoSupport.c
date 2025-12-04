@@ -30,3 +30,13 @@ memcpy (
 {
   return CopyMem(dest_str,src_str, (UINTN)(n));
 }
+
+INTN
+memcmpnew (
+  const void *buf1,
+  const void *buf2,
+  size_t count
+  )
+{
+  return CompareMem(buf1, buf2, (UINTN)(count));
+}

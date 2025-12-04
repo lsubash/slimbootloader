@@ -53,6 +53,9 @@
   CmdAcpi.c
   CmdSetup.c
   CmdFlashmap.c
+  CmdAesDecrypt.c
+  CmdAesEncrypt.c
+
 
 [Packages]
   MdePkg/MdePkg.dec
@@ -85,7 +88,8 @@
   RngLib
   LoaderPerformanceLib
   IppCryptoPerfLib
-
+  CryptoLib
+  
 [Pcd]
   gEfiMdePkgTokenSpaceGuid.PcdPciExpressBaseAddress
   gPlatformCommonLibTokenSpaceGuid.PcdMiniShellEnabled

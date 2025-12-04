@@ -33,6 +33,8 @@ extern CONST SHELL_COMMAND ShellCommandCorruptComp;
 extern CONST SHELL_COMMAND ShellCommandAcpi;
 extern CONST SHELL_COMMAND ShellCommandSetup;
 extern CONST SHELL_COMMAND ShellCommandFlashmap;
+extern CONST SHELL_COMMAND ShellCommandDecrypt;
+extern CONST SHELL_COMMAND ShellCommandEncrypt;
 
 /**
   Load shell commands.

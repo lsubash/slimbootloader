@@ -50,6 +50,12 @@ memcpy    (
   size_t
   );
 
+INTN
+memcmpnew (
+  const void *buf1,
+  const void *buf2,
+  size_t count
+  );
 
 //
 // Macros that directly map functions to BaseLib functions
